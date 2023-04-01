@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nZNer30O8aFPnjaiPoR/CgA7F5MNLmJYeGIzeJqw1ArNYZrkoMOeyxKoawypsaGu49vH/vtJOCre/s2zmtozug==",
+  "dgSpecHash": "lQSIL7W1x1f4GlvytiD7LjoNB3nsMhDEfkOo3sqHgx1LcxvoVAFluKy/jZF+e5zPrrVyMISNLsiOuKDZzSbQJg==",
   "success": true,
-  "projectFilePath": "E:\\VS\\MusicO\\MusicO\\MusicO.Android\\MusicO.Android.csproj",
+  "projectFilePath": "C:\\Users\\mihai\\OneDrive\\Работен плот\\GitHub\\MusicO\\Project_MusicO\\MusicO\\MusicO\\MusicO.Android\\MusicO.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mihai\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\mihai\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",

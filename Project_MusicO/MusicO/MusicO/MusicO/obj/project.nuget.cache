@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4R9PoKM/vx5uWzCs+6svjYsjnnTwQO0ZYgfpooGg58LY44jCPzW+iZTiNfblrZEZ4rOAEIKcfFtGAgfhxxjxyw==",
+  "dgSpecHash": "9g4c0gTunRjTK2EMxhiPRuSlsJb4fsRso6O3JxZycXB+Og9Y42zqNbs6Ip2rApa/ErivRU3EICbhUk/171YT2w==",
   "success": true,
-  "projectFilePath": "E:\\VS\\MusicO\\MusicO\\MusicO\\MusicO.csproj",
+  "projectFilePath": "C:\\Users\\mihai\\OneDrive\\Работен плот\\GitHub\\MusicO\\Project_MusicO\\MusicO\\MusicO\\MusicO\\MusicO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mihai\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\mihai\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

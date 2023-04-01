@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "URVVUpWzZPHs6eWy3qbvsQTzMo4R81c/EqzA+B15caI4ACHy8cPxG81Uz3jMuTLQeHhezMY9KcHWAKRJnAHBag==",
+  "dgSpecHash": "vbifkmD6UKwc/znKboFAm5DcH8lUzo+b1TD4fwujEkmt4lfRDgX66NXrxOEmQiKXCF7jD95DGsHIww2PjU8OrQ==",
   "success": true,
-  "projectFilePath": "E:\\VS\\MusicO\\MusicO\\MusicO.iOS\\MusicO.iOS.csproj",
+  "projectFilePath": "C:\\Users\\mihai\\OneDrive\\Работен плот\\GitHub\\MusicO\\Project_MusicO\\MusicO\\MusicO\\MusicO.iOS\\MusicO.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mihai\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\mihai\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",

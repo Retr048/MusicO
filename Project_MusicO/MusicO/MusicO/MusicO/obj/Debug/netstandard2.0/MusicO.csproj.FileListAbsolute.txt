@@ -18,3 +18,23 @@ E:\VS\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\MusicO.dll
 E:\VS\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\refint\MusicO.dll
 E:\VS\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\MusicO.pdb
 E:\VS\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\ref\MusicO.dll
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\bin\Debug\netstandard2.0\MusicO.deps.json
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\bin\Debug\netstandard2.0\MusicO.dll
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\bin\Debug\netstandard2.0\MusicO.pdb
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\MusicO.csproj.AssemblyReference.cache
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\MusicO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\MusicO.AssemblyInfoInputs.cache
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\MusicO.AssemblyInfo.cs
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\MusicO.csproj.CoreCompileInputs.cache
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\MusicO.dll
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\refint\MusicO.dll
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\MusicO.pdb
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\ref\MusicO.dll

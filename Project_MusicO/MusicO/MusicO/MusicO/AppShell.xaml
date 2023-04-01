@@ -3,7 +3,9 @@
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:MusicO.Views"
        Title="MusicO"
-       x:Class="MusicO.AppShell">
+       x:Class="MusicO.AppShell"
+       >
+       
 
     <!--
         The overall app visual hierarchy is defined here, along with navigation.
@@ -14,15 +16,15 @@
     <Shell.Resources>
         <ResourceDictionary>
             <Style x:Key="BaseStyle" TargetType="Element">
-                <Setter Property="Shell.BackgroundColor" Value="{StaticResource Primary}" />
-                <Setter Property="Shell.ForegroundColor" Value="White" />
-                <Setter Property="Shell.TitleColor" Value="White" />
-                <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
-                <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
-                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource Primary}" />
-                <Setter Property="Shell.TabBarForegroundColor" Value="White"/>
-                <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/>
-                <Setter Property="Shell.TabBarTitleColor" Value="White"/>
+                <Setter Property="Shell.BackgroundColor" Value="DarkMagenta" />
+                <Setter Property="Shell.ForegroundColor" Value="DarkOrange" />
+                <Setter Property="Shell.TitleColor" Value="Orange" />
+                <Setter Property="Shell.DisabledColor" Value="Purple" />
+                <Setter Property="Shell.UnselectedColor" Value="Wheat" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value= "DarkMagenta" />
+                <Setter Property="Shell.TabBarForegroundColor" Value="Orange"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="BlueViolet"/>
+                <Setter Property="Shell.TabBarTitleColor" Value="DarkOrange"/>
             </Style>
             <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
             <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
@@ -30,8 +32,8 @@
     </Shell.Resources>
 
     <TabBar>
-        <ShellContent Title="About" Icon="icon_about.png" Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
-        <ShellContent Title="Browse" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
+        <ShellContent Title="MusiGO" Icon="icon_about.png" Route="AboutPage" ContentTemplate="{DataTemplate local:AboutPage}" />
+        <ShellContent Title="Settings" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:ItemsPage}" />
     </TabBar>
 
     <!--

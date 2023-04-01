@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\VS\\MusicO\\MusicO\\MusicO\\MusicO.csproj": {}
+    "C:\\Users\\mihai\\OneDrive\\Работен плот\\GitHub\\MusicO\\Project_MusicO\\MusicO\\MusicO\\MusicO\\MusicO.csproj": {}
   },
   "projects": {
-    "E:\\VS\\MusicO\\MusicO\\MusicO\\MusicO.csproj": {
+    "C:\\Users\\mihai\\OneDrive\\Работен плот\\GitHub\\MusicO\\Project_MusicO\\MusicO\\MusicO\\MusicO\\MusicO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VS\\MusicO\\MusicO\\MusicO\\MusicO.csproj",
+        "projectUniqueName": "C:\\Users\\mihai\\OneDrive\\Работен плот\\GitHub\\MusicO\\Project_MusicO\\MusicO\\MusicO\\MusicO\\MusicO.csproj",
         "projectName": "MusicO",
-        "projectPath": "E:\\VS\\MusicO\\MusicO\\MusicO\\MusicO.csproj",
+        "projectPath": "C:\\Users\\mihai\\OneDrive\\Работен плот\\GitHub\\MusicO\\Project_MusicO\\MusicO\\MusicO\\MusicO\\MusicO.csproj",
         "packagesPath": "C:\\Users\\mihai\\.nuget\\packages\\",
-        "outputPath": "E:\\VS\\MusicO\\MusicO\\MusicO\\obj\\",
+        "outputPath": "C:\\Users\\mihai\\OneDrive\\Работен плот\\GitHub\\MusicO\\Project_MusicO\\MusicO\\MusicO\\MusicO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
