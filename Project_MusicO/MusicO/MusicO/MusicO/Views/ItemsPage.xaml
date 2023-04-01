@@ -15,30 +15,17 @@
       https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/data-binding/compiled-bindings
     -->
     <RefreshView x:DataType="local:ItemsViewModel" Command="{Binding LoadItemsCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
-        <CollectionView x:Name="ItemsListView"
-                ItemsSource="{Binding Items}"
-                SelectionMode="None">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <StackLayout Padding="10" x:DataType="model:Item">
-                        <Label Text="{Binding Text}" 
-                            LineBreakMode="NoWrap" 
-                            Style="{DynamicResource ListItemTextStyle}" 
-                            FontSize="16" />
-                        <Label Text="{Binding Description}" 
-                            LineBreakMode="NoWrap"
-                            Style="{DynamicResource ListItemDetailTextStyle}"
-                            FontSize="13" />
-                        <StackLayout.GestureRecognizers>
-                            <TapGestureRecognizer 
-                                NumberOfTapsRequired="1"
-                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:ItemsViewModel}}, Path=ItemTapped}"		
-                                CommandParameter="{Binding .}">
-                            </TapGestureRecognizer>
-                        </StackLayout.GestureRecognizers>
-                    </StackLayout>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+        <StackLayout>
+            <Entry x:Name="backgroundTextBox" TextChanged="OnTextChanged" PlaceholderColor="#090333" Placeholder="Background Color:"/>
+            <Entry PlaceholderColor="#3a469f" Placeholder="Foreground Color:"/>
+            <StackLayout Orientation="Horizontal">
+                <RadioButton x:Name="darkTheme" />
+                <Label Text="Dark theme" VerticalTextAlignment="Center" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <RadioButton x:Name="lightTheme" />
+                <Label Text="Light theme" VerticalTextAlignment="Center" />
+            </StackLayout>
+        </StackLayout>
     </RefreshView>
 </ContentPage>

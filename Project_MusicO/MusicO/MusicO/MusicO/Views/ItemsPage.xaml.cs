@@ -1,14 +1,6 @@
-﻿using MusicO.Models;
-using MusicO.ViewModels;
-using MusicO.Views;
+﻿using MusicO.ViewModels;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace MusicO.Views
 {
@@ -27,6 +19,18 @@ namespace MusicO.Views
         {
             base.OnAppearing();
             _viewModel.OnAppearing();
+        }
+
+        private void OnTextChanged(object sender, TextChangedEventArgs e) 
+        {
+            Color defaultBGColor = new Color(9, 3, 51);
+            try
+            {
+                
+            }
+            catch(Exception ex) {
+                backgroundTextBox.BackgroundColor = defaultBGColor;
+            }
         }
     }
 }

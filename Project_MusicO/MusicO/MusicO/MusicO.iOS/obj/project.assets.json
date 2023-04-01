@@ -165,6 +165,35 @@
           "lib/netstandard2.0/Nominatim.API.dll": {}
         }
       },
+      "Syncfusion.Licensing/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.SfColorPalette.WPF/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "21.1.37",
+          "Syncfusion.SfRadialMenu.WPF": "21.1.37",
+          "Syncfusion.Shared.WPF": "21.1.37"
+        }
+      },
+      "Syncfusion.SfRadialMenu.WPF/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "21.1.37"
+        }
+      },
+      "Syncfusion.Shared.WPF/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "21.1.37"
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -412,13 +441,33 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/5.0.0.2578": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2578"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {
+            "related": ".xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {
+            "related": ".xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "MusicO/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Nominatim.API": "2.0.0",
+          "Syncfusion.SfColorPalette.WPF": "21.1.37",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2578",
+          "Xamarin.Forms.Maps": "5.0.0.2578"
         },
         "compile": {
           "bin/placeholder/MusicO.dll": {}
@@ -592,6 +641,35 @@
           "lib/netstandard2.0/Nominatim.API.dll": {}
         }
       },
+      "Syncfusion.Licensing/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.SfColorPalette.WPF/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "21.1.37",
+          "Syncfusion.SfRadialMenu.WPF": "21.1.37",
+          "Syncfusion.Shared.WPF": "21.1.37"
+        }
+      },
+      "Syncfusion.SfRadialMenu.WPF/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "21.1.37"
+        }
+      },
+      "Syncfusion.Shared.WPF/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "21.1.37"
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -839,13 +917,33 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/5.0.0.2578": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2578"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {
+            "related": ".xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {
+            "related": ".xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "MusicO/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Nominatim.API": "2.0.0",
+          "Syncfusion.SfColorPalette.WPF": "21.1.37",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2578",
+          "Xamarin.Forms.Maps": "5.0.0.2578"
         },
         "compile": {
           "bin/placeholder/MusicO.dll": {}
@@ -1019,6 +1117,35 @@
           "lib/netstandard2.0/Nominatim.API.dll": {}
         }
       },
+      "Syncfusion.Licensing/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.SfColorPalette.WPF/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "21.1.37",
+          "Syncfusion.SfRadialMenu.WPF": "21.1.37",
+          "Syncfusion.Shared.WPF": "21.1.37"
+        }
+      },
+      "Syncfusion.SfRadialMenu.WPF/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "21.1.37"
+        }
+      },
+      "Syncfusion.Shared.WPF/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "21.1.37"
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -1266,13 +1393,33 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/5.0.0.2578": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2578"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {
+            "related": ".xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {
+            "related": ".xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "MusicO/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Nominatim.API": "2.0.0",
+          "Syncfusion.SfColorPalette.WPF": "21.1.37",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2578",
+          "Xamarin.Forms.Maps": "5.0.0.2578"
         },
         "compile": {
           "bin/placeholder/MusicO.dll": {}
@@ -1446,6 +1593,35 @@
           "lib/netstandard2.0/Nominatim.API.dll": {}
         }
       },
+      "Syncfusion.Licensing/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.SfColorPalette.WPF/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "21.1.37",
+          "Syncfusion.SfRadialMenu.WPF": "21.1.37",
+          "Syncfusion.Shared.WPF": "21.1.37"
+        }
+      },
+      "Syncfusion.SfRadialMenu.WPF/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "21.1.37"
+        }
+      },
+      "Syncfusion.Shared.WPF/21.1.37": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "21.1.37"
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -1693,13 +1869,33 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/5.0.0.2578": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "5.0.0.2578"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {
+            "related": ".xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {
+            "related": ".xml"
+          },
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "MusicO/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Nominatim.API": "2.0.0",
+          "Syncfusion.SfColorPalette.WPF": "21.1.37",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Forms": "5.0.0.2578",
+          "Xamarin.Forms.Maps": "5.0.0.2578"
         },
         "compile": {
           "bin/placeholder/MusicO.dll": {}
@@ -1955,6 +2151,160 @@
         "lib/netstandard2.0/Nominatim.API.dll",
         "nominatim.api.2.0.0.nupkg.sha512",
         "nominatim.api.nuspec"
+      ]
+    },
+    "Syncfusion.Licensing/21.1.37": {
+      "sha512": "bgg43Ocj2l8dv4Nd4nX1LNqCj5ZAezeOTI5ZBbszNGIajwlg5IXShoa+HkvnoWjbUBX+vNwWgWFdsBYdMOhtTQ==",
+      "type": "package",
+      "path": "syncfusion.licensing/21.1.37",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/net6.0-windows7.0/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/net7.0-windows7.0/Syncfusion.Licensing.dll",
+        "lib/net7.0/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.21.1.37.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.SfColorPalette.WPF/21.1.37": {
+      "sha512": "dlWurRgdgQF43Gj1ew99vkhdqZDlhNGTQGEoYP0upmSo1Gl3E/yqEUS3f90MKY77aO9N/SObJqL+UvLBt/fKwA==",
+      "type": "package",
+      "path": "syncfusion.sfcolorpalette.wpf/21.1.37",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfColorPalette.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfColorPalette.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfColorPalette.WPF.dll",
+        "lib/net40/Syncfusion.SfColorPalette.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfColorPalette.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfColorPalette.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfColorPalette.WPF.dll",
+        "lib/net45/Syncfusion.SfColorPalette.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfColorPalette.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfColorPalette.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfColorPalette.WPF.dll",
+        "lib/net451/Syncfusion.SfColorPalette.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfColorPalette.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfColorPalette.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfColorPalette.WPF.dll",
+        "lib/net46/Syncfusion.SfColorPalette.WPF.xml",
+        "lib/net6.0-windows7.0/Syncfusion.SfColorPalette.WPF.dll",
+        "lib/net6.0-windows7.0/Syncfusion.SfColorPalette.WPF.xml",
+        "syncfusion.sfcolorpalette.wpf.21.1.37.nupkg.sha512",
+        "syncfusion.sfcolorpalette.wpf.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.SfRadialMenu.WPF/21.1.37": {
+      "sha512": "TH4bJanw7/3JQ7dXlBt1mphtGUcKoHrX2qg+qRMNWjrZBwoRoR6Ov2ZjdNUl5rOwA6FAK5QNJ0Z8EJk8c2pohw==",
+      "type": "package",
+      "path": "syncfusion.sfradialmenu.wpf/21.1.37",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfRadialMenu.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfRadialMenu.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfRadialMenu.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfRadialMenu.WPF.dll",
+        "lib/net40/Syncfusion.SfRadialMenu.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfRadialMenu.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfRadialMenu.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfRadialMenu.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfRadialMenu.WPF.dll",
+        "lib/net45/Syncfusion.SfRadialMenu.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfRadialMenu.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfRadialMenu.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfRadialMenu.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfRadialMenu.WPF.dll",
+        "lib/net451/Syncfusion.SfRadialMenu.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfRadialMenu.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfRadialMenu.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfRadialMenu.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfRadialMenu.WPF.dll",
+        "lib/net46/Syncfusion.SfRadialMenu.WPF.xml",
+        "lib/net6.0-windows7.0/Design/Syncfusion.SfRadialMenu.WPF.DesignTools.dll",
+        "lib/net6.0-windows7.0/Syncfusion.SfRadialMenu.WPF.dll",
+        "lib/net6.0-windows7.0/Syncfusion.SfRadialMenu.WPF.xml",
+        "syncfusion.sfradialmenu.wpf.21.1.37.nupkg.sha512",
+        "syncfusion.sfradialmenu.wpf.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.Shared.WPF/21.1.37": {
+      "sha512": "MxY6DNB+TiYovg7ZDY4sP8Zwa0qC+I+kDlhesj6ZIfot4k0n7k7MeD8d477+Q9hdm3zPgMasMNPjAU6tXK2ofg==",
+      "type": "package",
+      "path": "syncfusion.shared.wpf/21.1.37",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net40/Syncfusion.Shared.WPF.dll",
+        "lib/net40/Syncfusion.Shared.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net45/Syncfusion.Shared.WPF.dll",
+        "lib/net45/Syncfusion.Shared.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net451/Syncfusion.Shared.WPF.dll",
+        "lib/net451/Syncfusion.Shared.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net46/Syncfusion.Shared.WPF.dll",
+        "lib/net46/Syncfusion.Shared.WPF.xml",
+        "lib/net6.0-windows7.0/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net6.0-windows7.0/Syncfusion.Shared.WPF.dll",
+        "lib/net6.0-windows7.0/Syncfusion.Shared.WPF.xml",
+        "syncfusion.shared.wpf.21.1.37.nupkg.sha512",
+        "syncfusion.shared.wpf.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
       ]
     },
     "System.Buffers/4.5.1": {
@@ -2393,6 +2743,42 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.Maps/5.0.0.2578": {
+      "sha512": "M9qQMlQ+L3MRJjKD8Hv2wqAzNvMaRxdfsa5kbr+vZLc/MXwHqa2YJmXOTCMxKOk4T/r3le2VcLueze+/jNp+HQ==",
+      "type": "package",
+      "path": "xamarin.forms.maps/5.0.0.2578",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Assets/xamarin_128x128.png",
+        "Licenses/LICENSE",
+        "Licenses/THIRD-PARTY-NOTICES.txt",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
+        "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.xml",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.14393/Xamarin.Forms.Maps.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0.16299/Xamarin.Forms.Maps.dll",
+        "xamarin.forms.maps.5.0.0.2578.nupkg.sha512",
+        "xamarin.forms.maps.nuspec"
+      ]
+    },
     "MusicO/1.0.0": {
       "type": "project",
       "path": "../MusicO/MusicO.csproj",
@@ -2470,5 +2856,128 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2578 to 5.0.0.2196. Reference the package directly from the project to select a different version. \r\n MusicO.iOS -> MusicO -> Xamarin.Forms (>= 5.0.0.2578) \r\n MusicO.iOS -> Xamarin.Forms (>= 5.0.0.2196)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Syncfusion.SfColorPalette.WPF 21.1.37 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Package Syncfusion.SfColorPalette.WPF 21.1.37 supports:\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - net45 (.NETFramework,Version=v4.5)\r\n  - net451 (.NETFramework,Version=v4.5.1)\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Syncfusion.SfColorPalette.WPF",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Syncfusion.Shared.WPF 21.1.37 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Package Syncfusion.Shared.WPF 21.1.37 supports:\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - net45 (.NETFramework,Version=v4.5)\r\n  - net451 (.NETFramework,Version=v4.5.1)\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Syncfusion.Shared.WPF",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Syncfusion.SfRadialMenu.WPF 21.1.37 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Package Syncfusion.SfRadialMenu.WPF 21.1.37 supports:\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - net45 (.NETFramework,Version=v4.5)\r\n  - net451 (.NETFramework,Version=v4.5.1)\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Syncfusion.SfRadialMenu.WPF",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Syncfusion.SfColorPalette.WPF 21.1.37 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Package Syncfusion.SfColorPalette.WPF 21.1.37 supports:\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - net45 (.NETFramework,Version=v4.5)\r\n  - net451 (.NETFramework,Version=v4.5.1)\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Syncfusion.SfColorPalette.WPF",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Syncfusion.Shared.WPF 21.1.37 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Package Syncfusion.Shared.WPF 21.1.37 supports:\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - net45 (.NETFramework,Version=v4.5)\r\n  - net451 (.NETFramework,Version=v4.5.1)\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Syncfusion.Shared.WPF",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Syncfusion.SfRadialMenu.WPF 21.1.37 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Package Syncfusion.SfRadialMenu.WPF 21.1.37 supports:\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - net45 (.NETFramework,Version=v4.5)\r\n  - net451 (.NETFramework,Version=v4.5.1)\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Syncfusion.SfRadialMenu.WPF",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Syncfusion.SfColorPalette.WPF 21.1.37 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Package Syncfusion.SfColorPalette.WPF 21.1.37 supports:\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - net45 (.NETFramework,Version=v4.5)\r\n  - net451 (.NETFramework,Version=v4.5.1)\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Syncfusion.SfColorPalette.WPF",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Syncfusion.Shared.WPF 21.1.37 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Package Syncfusion.Shared.WPF 21.1.37 supports:\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - net45 (.NETFramework,Version=v4.5)\r\n  - net451 (.NETFramework,Version=v4.5.1)\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Syncfusion.Shared.WPF",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Syncfusion.SfRadialMenu.WPF 21.1.37 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Package Syncfusion.SfRadialMenu.WPF 21.1.37 supports:\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - net45 (.NETFramework,Version=v4.5)\r\n  - net451 (.NETFramework,Version=v4.5.1)\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Syncfusion.SfRadialMenu.WPF",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Syncfusion.SfColorPalette.WPF 21.1.37 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Package Syncfusion.SfColorPalette.WPF 21.1.37 supports:\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - net45 (.NETFramework,Version=v4.5)\r\n  - net451 (.NETFramework,Version=v4.5.1)\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Syncfusion.SfColorPalette.WPF",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Syncfusion.Shared.WPF 21.1.37 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Package Syncfusion.Shared.WPF 21.1.37 supports:\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - net45 (.NETFramework,Version=v4.5)\r\n  - net451 (.NETFramework,Version=v4.5.1)\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Syncfusion.Shared.WPF",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Syncfusion.SfRadialMenu.WPF 21.1.37 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Package Syncfusion.SfRadialMenu.WPF 21.1.37 supports:\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - net45 (.NETFramework,Version=v4.5)\r\n  - net451 (.NETFramework,Version=v4.5.1)\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Syncfusion.SfRadialMenu.WPF",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }
