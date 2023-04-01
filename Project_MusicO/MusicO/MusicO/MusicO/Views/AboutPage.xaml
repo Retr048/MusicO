@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MusicO.Views.AboutPage"
              xmlns:vm="clr-namespace:MusicO.ViewModels"
-             Shell.BackgroundColor="#0C0636"
+             Shell.BackgroundColor="#090333"
              >
     
     <ContentPage.BindingContext>
@@ -21,32 +21,17 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <StackLayout  BackgroundColor="#0C0636" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
-            <StackLayout  Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+        <StackLayout  BackgroundColor="#090333" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+            <StackLayout Padding="0,-40,0,0" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
                 <ContentView  Padding="0,-60,0,0" VerticalOptions="FillAndExpand">
-                    <Image Aspect="AspectFill" Source="logo2.jpg" VerticalOptions="CenterAndExpand"  HeightRequest="404"/>
+                    <Image Aspect="AspectFill" Source="logo3.jpg" VerticalOptions="CenterAndExpand"  HeightRequest="404"/>
                 </ContentView>
+                <Button Margin="-50, 20" BackgroundColor="#3a469f" Text="Generate Local Playlist"/>
             </StackLayout>
         </StackLayout>
-        <ScrollView Padding="0,0,0,0" Grid.Row="1">
+        <ScrollView Grid.Row="1">
             <StackLayout BackgroundColor="#b182a8" Orientation="Vertical" Padding="10,0,30,24" Spacing="5">
-                <Label TextColor="DarkSlateGray" Text="Start Listening Now!" FontSize="Title"/>
-                <Label TextColor="#cbbebe" Text="The app will generate a playlist based on your location!" FontSize="18" Padding="0,0,0,0"/>
-                <Button BackgroundColor="#3a469f" Text="Generate Local Playlist"/>
-                <Label FontSize="16" Padding="0,0,0,0">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="Learn more at "/>
-                                <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <Button Margin="15,0,0,0" Text="Learn more"
-                        Command="{Binding OpenWebCommand}"
-                        BackgroundColor="DarkCyan"
-                        TextColor="White" />
+              
             </StackLayout>
         </ScrollView>
     </Grid>
