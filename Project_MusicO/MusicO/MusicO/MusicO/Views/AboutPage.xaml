@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MusicO.Views.AboutPage"
              xmlns:vm="clr-namespace:MusicO.ViewModels"
-             Title="MusiGO"
+             Shell.BackgroundColor="#0C0636"
              >
     
     <ContentPage.BindingContext>
@@ -12,7 +12,7 @@
     
     <ContentPage.Resources>
         <ResourceDictionary>
-            <Color x:Key="Accent">#96d1ff</Color>
+            <Color x:Key="Accent">#000000</Color>
         </ResourceDictionary>
     </ContentPage.Resources>
 
@@ -21,17 +21,18 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <StackLayout BackgroundColor="Gray" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
-                <ContentView Padding="0,200,0,40" VerticalOptions="FillAndExpand">
-                    <Image Source="xamarin_logo.png" VerticalOptions="Center" HeightRequest="64" />
+        <StackLayout  BackgroundColor="#0C0636" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+            <StackLayout  Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                <ContentView  Padding="0,-60,0,0" VerticalOptions="FillAndExpand">
+                    <Image Aspect="AspectFill" Source="logo2.jpg" VerticalOptions="CenterAndExpand"  HeightRequest="404"/>
                 </ContentView>
             </StackLayout>
         </StackLayout>
-        <ScrollView Grid.Row="2">
-            <StackLayout Orientation="Vertical" Padding="10,0,30,24" Spacing="5">
-                <Label Text="Start developing now" FontSize="Title"/>
-                <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="0,0,0,0"/>
+        <ScrollView Padding="0,0,0,0" Grid.Row="1">
+            <StackLayout BackgroundColor="#b182a8" Orientation="Vertical" Padding="10,0,30,24" Spacing="5">
+                <Label TextColor="DarkSlateGray" Text="Start Listening Now!" FontSize="Title"/>
+                <Label TextColor="#cbbebe" Text="The app will generate a playlist based on your location!" FontSize="18" Padding="0,0,0,0"/>
+                <Button BackgroundColor="#3a469f" Text="Generate Local Playlist"/>
                 <Label FontSize="16" Padding="0,0,0,0">
                     <Label.FormattedText>
                         <FormattedString>
