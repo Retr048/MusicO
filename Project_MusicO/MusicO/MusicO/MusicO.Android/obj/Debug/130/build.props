@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638159572255191347
+_nugetassetstimestamp=638159612896551574
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\users\mihai\onedrive\работен плот\github\musico\project_musico\musico\musico\musico.android\musico.android.csproj
+projectfullpath=d:\githubrepos\musico\project_musico\musico\musico\musico.android\musico.android.csproj

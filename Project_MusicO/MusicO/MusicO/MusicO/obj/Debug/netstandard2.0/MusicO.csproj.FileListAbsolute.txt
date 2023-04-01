@@ -38,3 +38,23 @@ C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\Mus
 C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\refint\MusicO.dll
 C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\MusicO.pdb
 C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\ref\MusicO.dll
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\bin\Debug\netstandard2.0\MusicO.deps.json
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\bin\Debug\netstandard2.0\MusicO.dll
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\bin\Debug\netstandard2.0\MusicO.pdb
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\MusicO.csproj.AssemblyReference.cache
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\MusicO.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\MusicO.AssemblyInfoInputs.cache
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\MusicO.AssemblyInfo.cs
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\MusicO.csproj.CoreCompileInputs.cache
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\XamlC.stamp
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\MusicO.dll
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\refint\MusicO.dll
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\MusicO.pdb
+D:\GitHubRepos\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\ref\MusicO.dll
