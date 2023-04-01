@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MusicO.Views.AboutPage"
              xmlns:vm="clr-namespace:MusicO.ViewModels"
-             Title="{Binding Title}">
+             Title="MusiGO"
+             >
     
     <ContentPage.BindingContext>
         <vm:AboutViewModel />
@@ -41,9 +42,9 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Button Margin="0,0,0,0" Text="Learn more"
+                <Button Margin="15,0,0,0" Text="Learn more"
                         Command="{Binding OpenWebCommand}"
-                        BackgroundColor="{StaticResource Primary}"
+                        BackgroundColor="DarkCyan"
                         TextColor="White" />
             </StackLayout>
         </ScrollView>
