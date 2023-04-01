@@ -26,14 +26,20 @@
                 <ContentView  Padding="0,-60,0,0" VerticalOptions="FillAndExpand">
                     <Image Aspect="AspectFill" Source="logo3.jpg" VerticalOptions="CenterAndExpand"  HeightRequest="404"/>
                 </ContentView>
-                <Button Margin="-50, 20" BackgroundColor="#3a469f" Text="Generate Local Playlist"/>
+                <Button Text="Generate Playlist" Margin=" -30, 0, -30, 50"
+        BackgroundColor="#3a469f"
+        TextColor="White"
+        FontSize="Large"
+        FontFamily="Roboto"
+        CornerRadius="12"
+        Padding="30,5"
+        HeightRequest="70"
+        WidthRequest="10"
+        BorderWidth="0"
+        BorderColor="#FFFFFF">
+                </Button>
             </StackLayout>
         </StackLayout>
-        <ScrollView Grid.Row="1">
-            <StackLayout BackgroundColor="#b182a8" Orientation="Vertical" Padding="10,0,30,24" Spacing="5">
-              
-            </StackLayout>
-        </ScrollView>
     </Grid>
 
 </ContentPage>
