@@ -12,7 +12,6 @@
           "NETStandard.Library": "2.0.3",
           "Nominatim.API": "2.0.0",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2578",
           "Xamarin.Forms.Maps": "5.0.0.2578",
           "sqlite-net-pcl": "1.8.116"
         },

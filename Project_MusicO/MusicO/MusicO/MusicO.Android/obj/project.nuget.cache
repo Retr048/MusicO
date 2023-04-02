@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "p+fMCFmSfrOUphF4QYy14uvWlSLUp5b3xicuJYzsv5vTvQySiNtpI48Q4340f1LflUWQKceYJEJQfvneqG4NYg==",
+  "dgSpecHash": "809dbYdT2oq3QxwwslQ9iY9M1ullENkrQHNWRZKcrOG/GMwidDrOwrUnty4sj9QOz8nLcM4qWCOjQormLMDPZA==",
   "success": true,
   "projectFilePath": "C:\\Users\\mihai\\OneDrive\\Работен плот\\GitHub\\MusicO\\Project_MusicO\\MusicO\\MusicO\\MusicO.Android\\MusicO.Android.csproj",
   "expectedPackageFiles": [
@@ -94,7 +94,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2578 to 5.0.0.2196. Reference the package directly from the project to select a different version. \r\n MusicO.Android -> MusicO -> Xamarin.Forms (>= 5.0.0.2578) \r\n MusicO.Android -> Xamarin.Forms (>= 5.0.0.2196)",
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2578 to 5.0.0.2196. Reference the package directly from the project to select a different version. \r\n MusicO.Android -> MusicO -> Xamarin.Forms.Maps 5.0.0.2578 -> Xamarin.Forms (>= 5.0.0.2578) \r\n MusicO.Android -> Xamarin.Forms (>= 5.0.0.2196)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "MonoAndroid,Version=v13.0"

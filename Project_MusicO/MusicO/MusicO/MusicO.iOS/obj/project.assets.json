@@ -487,11 +487,10 @@
       },
       "MusicO/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Nominatim.API": "2.0.0",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2578",
           "Xamarin.Forms.Maps": "5.0.0.2578",
           "sqlite-net-pcl": "1.8.116"
         },
@@ -989,11 +988,10 @@
       },
       "MusicO/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Nominatim.API": "2.0.0",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2578",
           "Xamarin.Forms.Maps": "5.0.0.2578",
           "sqlite-net-pcl": "1.8.116"
         },
@@ -1491,11 +1489,10 @@
       },
       "MusicO/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Nominatim.API": "2.0.0",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2578",
           "Xamarin.Forms.Maps": "5.0.0.2578",
           "sqlite-net-pcl": "1.8.116"
         },
@@ -1993,11 +1990,10 @@
       },
       "MusicO/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Nominatim.API": "2.0.0",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2578",
           "Xamarin.Forms.Maps": "5.0.0.2578",
           "sqlite-net-pcl": "1.8.116"
         },
@@ -2869,7 +2865,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2578 to 5.0.0.2196. Reference the package directly from the project to select a different version. \r\n MusicO.iOS -> MusicO -> Xamarin.Forms (>= 5.0.0.2578) \r\n MusicO.iOS -> Xamarin.Forms (>= 5.0.0.2196)",
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2578 to 5.0.0.2196. Reference the package directly from the project to select a different version. \r\n MusicO.iOS -> MusicO -> Xamarin.Forms.Maps 5.0.0.2578 -> Xamarin.Forms (>= 5.0.0.2578) \r\n MusicO.iOS -> Xamarin.Forms (>= 5.0.0.2196)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",

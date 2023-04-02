@@ -1,35 +1,75 @@
 ﻿using System;
-using System.ComponentModel;
-using Xamarin.Essentials;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 using Xamarin.Forms.Maps;
-using System.Threading.Tasks;
-using System.Collections.Generic;
-using Nominatim.API;
 using Newtonsoft.Json.Linq;
 using System.Diagnostics;
 using System.Net.Http;
+using System.Threading.Tasks;
+using System.IO;
 
 namespace MusicO.Views
 {
     public partial class AboutPage : ContentPage
     {
+        private const string BingMapsKey = "ArdglWqtAhasv8gI78DVQnWI-tEDLud3rOd2MKAsAx7xb-tWVkInzXgt5EeEEE-Z";
+        string address;
+        Location location;
+
         public AboutPage()
         {
             InitializeComponent();
+            GetLocation();
+            if (location != null)
+                InitializeMap();
         }
-        Location location;
-        public async void GetLocation()
+        
+        public async Task GetLocation()
         {
             location = await Geolocation.GetLastKnownLocationAsync();
             if (location == null)
             {
                 location = await Geolocation.GetLocationAsync(new GeolocationRequest
                 {
-                    DesiredAccuracy = GeolocationAccuracy.Medium,
+                    DesiredAccuracy = GeolocationAccuracy.Best,
                     Timeout = TimeSpan.FromSeconds(1)
                 });
+            }
+        }
+
+        private async void InitializeMap()
+        {
+            await LoadMapAsync(location.Latitude, location.Longitude);
+        }
+
+        private async Task LoadMapAsync(double latitude, double longitude)
+        {
+            try
+            {
+                int zoomLevel = 16;
+                string lat = Convert.ToString(latitude).Replace(',', '.');
+                string lng = Convert.ToString(longitude).Replace(',', '.');
+                string url = $"https://dev.virtualearth.net/REST/v1/Imagery/Map/Road/{lat},{lng}/{zoomLevel}?mapSize=500,500&key={BingMapsKey}&q={DateTime.Now.Ticks}";
+                Debug.WriteLine(url);
+                // Send a GET request to the Bing Maps REST services.
+                using (HttpClient client = new HttpClient())
+                {
+                    HttpResponseMessage response = await client.GetAsync(url);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        // Get the map data from the response.
+                        byte[] mapData = await response.Content.ReadAsByteArrayAsync();
+
+                        // Set the map data as the source of the Image control.
+                        MapImage.Source = ImageSource.FromStream(() => new MemoryStream(mapData));
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Todo Handle errors.
+                Console.WriteLine($"Error: {ex.Message}");
             }
         }
 
@@ -64,12 +104,19 @@ namespace MusicO.Views
 
         private async void btnLocationClicked(object ender, EventArgs e)
         {
-            buttonPlaylist.Text = "You changed the text!";
-            GetLocation();
-            if (location != null)
+            try
             {
-                string address = await GetCompleteAddressString(location.Latitude, location.Longitude);
-            buttonPlaylist.Text = address;
+                await GetLocation();
+                if (location != null)
+                {
+                    address = await GetCompleteAddressString(location.Latitude, location.Longitude);
+                    buttonPlaylist.Text = address;
+                    await LoadMapAsync(location.Latitude, location.Longitude);
+                }
+            }
+            catch 
+            {
+                // Todo exception handling
             }
         }
 

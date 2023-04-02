@@ -4,7 +4,8 @@
              x:Class="MusicO.Views.AboutPage"
              xmlns:vm="clr-namespace:MusicO.ViewModels"
              BackgroundColor="#090333"
-             >
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             xmlns:bingmaps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps">
     
     <ContentPage.BindingContext>
         <vm:AboutViewModel />
@@ -26,7 +27,9 @@
                 <ContentView  Padding="0,-60,0,0" VerticalOptions="FillAndExpand">
                     <Image Aspect="AspectFill" Source="logo3.jpg" VerticalOptions="CenterAndExpand"  HeightRequest="404"/>
                 </ContentView>
-                <Button x:Name = "buttonPlaylist" Clicked ="btnLocationClicked"  Text="Generate Playlist" Margin=" -30, 0, -30, 50"
+                <Image x:Name="MapImage" Aspect="AspectFill" />
+                <StackLayout>
+                    <Button x:Name = "buttonPlaylist" Clicked ="btnLocationClicked"  Text="Generate Playlist" Margin=" -30, 0, -30, 50"
         BackgroundColor="#3a469f"
         TextColor="White"
         FontSize="Small"
@@ -37,8 +40,9 @@
         WidthRequest="10"
         BorderWidth="0"
         BorderColor="#FFFFFF"></Button>
+                </StackLayout>
             </StackLayout>
-            <Button Margin="-50, -420, 305, 50" Text="Logout" TextColor="Red" Clicked="Handle_Clicked"/>
+            <Button Margin="10" BackgroundColor = "#455D7A" Text="Logout" TextColor="#CD4545" Clicked="Handle_Clicked"/>
         </StackLayout>
     </Grid>
 
