@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MusicO.Views.RegistrationPage"
+             BackgroundColor="#090333"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid  BackgroundColor="Coral" Margin="20, 0, 20, 0" RowSpacing="20" VerticalOptions="CenterAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Row="0">
+                    <Entry Placeholder="Username" FontSize="18" x:Name="EntryUserName"/>
+                </StackLayout>
+                <StackLayout Grid.Row="1">
+                    <Entry Placeholder="Password" IsPassword="True" FontSize="18" x:Name="EntryPassword"/>
+                </StackLayout>
+                <StackLayout Grid.Row="2">
+                    <Entry Placeholder="Email" FontSize="18" x:Name="EntryEmail"/>
+                </StackLayout>
+                <StackLayout Grid.Row="3">
+                    <Button Text="Register" CornerRadius="0" WidthRequest="100" TextColor="DeepPink" FontSize="28" BackgroundColor="#461B93" Clicked="Handle_Clicked"/>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

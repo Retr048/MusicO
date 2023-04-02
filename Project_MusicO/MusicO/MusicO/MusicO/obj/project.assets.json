@@ -213,63 +213,121 @@
           "lib/netstandard2.0/Nominatim.API.dll": {}
         }
       },
-      "Syncfusion.Licensing/21.1.37": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
-        }
-      },
-      "Syncfusion.SfColorPalette.WPF/21.1.37": {
+      "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "21.1.37",
-          "Syncfusion.SfRadialMenu.WPF": "21.1.37",
-          "Syncfusion.Shared.WPF": "21.1.37"
+          "SQLitePCLRaw.bundle_green": "2.0.4"
         },
         "compile": {
-          "lib/net46/Syncfusion.SfColorPalette.WPF.dll": {
+          "lib/netstandard2.0/SQLite-net.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net46/Syncfusion.SfColorPalette.WPF.dll": {
+          "lib/netstandard2.0/SQLite-net.dll": {
             "related": ".xml"
           }
         }
       },
-      "Syncfusion.SfRadialMenu.WPF/21.1.37": {
+      "SQLitePCLRaw.bundle_green/2.0.4": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "21.1.37"
+          "SQLitePCLRaw.core": "2.0.4",
+          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.0.4"
         },
         "compile": {
-          "lib/net46/Syncfusion.SfRadialMenu.WPF.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
         },
         "runtime": {
-          "lib/net46/Syncfusion.SfRadialMenu.WPF.dll": {
-            "related": ".xml"
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/2.0.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/alpine-x64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/linux-arm/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-armel/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-armel"
+          },
+          "runtimes/linux-mips64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-mips64"
+          },
+          "runtimes/linux-musl-x64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-x64/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x86/native/libe_sqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
+          "runtimes/osx-x64/native/libe_sqlite3.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-arm/native/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win-arm"
+          },
+          "runtimes/win-arm64/native/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/e_sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
           }
         }
       },
-      "Syncfusion.Shared.WPF/21.1.37": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.0.4": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "21.1.37"
+          "SQLitePCLRaw.core": "2.0.4"
         },
         "compile": {
-          "lib/net46/Syncfusion.Shared.WPF.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         },
         "runtime": {
-          "lib/net46/Syncfusion.Shared.WPF.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
       "System.Buffers/4.5.1": {
@@ -862,158 +920,93 @@
         "nominatim.api.nuspec"
       ]
     },
-    "Syncfusion.Licensing/21.1.37": {
-      "sha512": "bgg43Ocj2l8dv4Nd4nX1LNqCj5ZAezeOTI5ZBbszNGIajwlg5IXShoa+HkvnoWjbUBX+vNwWgWFdsBYdMOhtTQ==",
+    "sqlite-net-pcl/1.8.116": {
+      "sha512": "W0NuwAOVVAR9LP4eZwNBIrim1p3EN7t8iNfSHXEhtzKAd4YyItekoQ8NyWYs4faVSrN2KZr/P5u4hycCjKKexg==",
       "type": "package",
-      "path": "syncfusion.licensing/21.1.37",
+      "path": "sqlite-net-pcl/1.8.116",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.txt",
-        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
-        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
-        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
-        "lib/net40/Syncfusion.Licensing.dll",
-        "lib/net45/Syncfusion.Licensing.dll",
-        "lib/net451/Syncfusion.Licensing.dll",
-        "lib/net46/Syncfusion.Licensing.dll",
-        "lib/net6.0-windows7.0/Syncfusion.Licensing.dll",
-        "lib/net6.0/Syncfusion.Licensing.dll",
-        "lib/net7.0-windows7.0/Syncfusion.Licensing.dll",
-        "lib/net7.0/Syncfusion.Licensing.dll",
-        "lib/netstandard2.0/Syncfusion.Licensing.dll",
-        "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.21.1.37.nupkg.sha512",
-        "syncfusion.licensing.nuspec",
-        "syncfusion_logo.png"
+        "Logo-low.png",
+        "lib/netstandard2.0/SQLite-net.dll",
+        "lib/netstandard2.0/SQLite-net.xml",
+        "sqlite-net-pcl.1.8.116.nupkg.sha512",
+        "sqlite-net-pcl.nuspec"
       ]
     },
-    "Syncfusion.SfColorPalette.WPF/21.1.37": {
-      "sha512": "dlWurRgdgQF43Gj1ew99vkhdqZDlhNGTQGEoYP0upmSo1Gl3E/yqEUS3f90MKY77aO9N/SObJqL+UvLBt/fKwA==",
+    "SQLitePCLRaw.bundle_green/2.0.4": {
+      "sha512": "ubFgOHDmtTcq2LU7Ss10yHnFVMm2rFVr65Ggi+Mh514KjGx4pal98P2zSvZtWf3wbtJw6G1InBgeozBtnpEfKQ==",
       "type": "package",
-      "path": "syncfusion.sfcolorpalette.wpf/21.1.37",
-      "hasTools": true,
+      "path": "sqlitepclraw.bundle_green/2.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.txt",
-        "README.md",
-        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
-        "lib/net40/Design/Syncfusion.SfColorPalette.WPF.Expression.Design.dll",
-        "lib/net40/Design/Syncfusion.SfColorPalette.Wpf.VisualStudio.Design.dll",
-        "lib/net40/Syncfusion.SfColorPalette.WPF.dll",
-        "lib/net40/Syncfusion.SfColorPalette.WPF.xml",
-        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
-        "lib/net45/Design/Syncfusion.SfColorPalette.WPF.Expression.Design.dll",
-        "lib/net45/Design/Syncfusion.SfColorPalette.Wpf.VisualStudio.Design.dll",
-        "lib/net45/Syncfusion.SfColorPalette.WPF.dll",
-        "lib/net45/Syncfusion.SfColorPalette.WPF.xml",
-        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
-        "lib/net451/Design/Syncfusion.SfColorPalette.WPF.Expression.Design.dll",
-        "lib/net451/Design/Syncfusion.SfColorPalette.Wpf.VisualStudio.Design.dll",
-        "lib/net451/Syncfusion.SfColorPalette.WPF.dll",
-        "lib/net451/Syncfusion.SfColorPalette.WPF.xml",
-        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
-        "lib/net46/Design/Syncfusion.SfColorPalette.WPF.Expression.Design.dll",
-        "lib/net46/Design/Syncfusion.SfColorPalette.Wpf.VisualStudio.Design.dll",
-        "lib/net46/Syncfusion.SfColorPalette.WPF.dll",
-        "lib/net46/Syncfusion.SfColorPalette.WPF.xml",
-        "lib/net6.0-windows7.0/Syncfusion.SfColorPalette.WPF.dll",
-        "lib/net6.0-windows7.0/Syncfusion.SfColorPalette.WPF.xml",
-        "syncfusion.sfcolorpalette.wpf.21.1.37.nupkg.sha512",
-        "syncfusion.sfcolorpalette.wpf.nuspec",
-        "syncfusion_logo.png",
-        "tools/VisualStudioToolsManifest.xml"
+        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.nativelibrary.dll",
+        "lib/net461/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net461/SQLitePCLRaw.nativelibrary.dll",
+        "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll",
+        "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll",
+        "sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+        "sqlitepclraw.bundle_green.nuspec"
       ]
     },
-    "Syncfusion.SfRadialMenu.WPF/21.1.37": {
-      "sha512": "TH4bJanw7/3JQ7dXlBt1mphtGUcKoHrX2qg+qRMNWjrZBwoRoR6Ov2ZjdNUl5rOwA6FAK5QNJ0Z8EJk8c2pohw==",
+    "SQLitePCLRaw.core/2.0.4": {
+      "sha512": "4XlDZpDAsboMD6qZQcz9AaKblKDUTVHF+8f3lvbP7QjoqSRr2Xc0Lm34IK2pjRIYnyFLhI3yOJ5YWfOiCid2yg==",
       "type": "package",
-      "path": "syncfusion.sfradialmenu.wpf/21.1.37",
-      "hasTools": true,
+      "path": "sqlitepclraw.core/2.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.txt",
-        "README.md",
-        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
-        "lib/net40/Design/Syncfusion.SfRadialMenu.WPF.DesignTools.dll",
-        "lib/net40/Design/Syncfusion.SfRadialMenu.WPF.Expression.Design.dll",
-        "lib/net40/Design/Syncfusion.SfRadialMenu.Wpf.VisualStudio.Design.dll",
-        "lib/net40/Syncfusion.SfRadialMenu.WPF.dll",
-        "lib/net40/Syncfusion.SfRadialMenu.WPF.xml",
-        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
-        "lib/net45/Design/Syncfusion.SfRadialMenu.WPF.DesignTools.dll",
-        "lib/net45/Design/Syncfusion.SfRadialMenu.WPF.Expression.Design.dll",
-        "lib/net45/Design/Syncfusion.SfRadialMenu.Wpf.VisualStudio.Design.dll",
-        "lib/net45/Syncfusion.SfRadialMenu.WPF.dll",
-        "lib/net45/Syncfusion.SfRadialMenu.WPF.xml",
-        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
-        "lib/net451/Design/Syncfusion.SfRadialMenu.WPF.DesignTools.dll",
-        "lib/net451/Design/Syncfusion.SfRadialMenu.WPF.Expression.Design.dll",
-        "lib/net451/Design/Syncfusion.SfRadialMenu.Wpf.VisualStudio.Design.dll",
-        "lib/net451/Syncfusion.SfRadialMenu.WPF.dll",
-        "lib/net451/Syncfusion.SfRadialMenu.WPF.xml",
-        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
-        "lib/net46/Design/Syncfusion.SfRadialMenu.WPF.DesignTools.dll",
-        "lib/net46/Design/Syncfusion.SfRadialMenu.WPF.Expression.Design.dll",
-        "lib/net46/Design/Syncfusion.SfRadialMenu.Wpf.VisualStudio.Design.dll",
-        "lib/net46/Syncfusion.SfRadialMenu.WPF.dll",
-        "lib/net46/Syncfusion.SfRadialMenu.WPF.xml",
-        "lib/net6.0-windows7.0/Design/Syncfusion.SfRadialMenu.WPF.DesignTools.dll",
-        "lib/net6.0-windows7.0/Syncfusion.SfRadialMenu.WPF.dll",
-        "lib/net6.0-windows7.0/Syncfusion.SfRadialMenu.WPF.xml",
-        "syncfusion.sfradialmenu.wpf.21.1.37.nupkg.sha512",
-        "syncfusion.sfradialmenu.wpf.nuspec",
-        "syncfusion_logo.png",
-        "tools/VisualStudioToolsManifest.xml"
+        "lib/netstandard2.0/SQLitePCLRaw.core.dll",
+        "sqlitepclraw.core.2.0.4.nupkg.sha512",
+        "sqlitepclraw.core.nuspec"
       ]
     },
-    "Syncfusion.Shared.WPF/21.1.37": {
-      "sha512": "MxY6DNB+TiYovg7ZDY4sP8Zwa0qC+I+kDlhesj6ZIfot4k0n7k7MeD8d477+Q9hdm3zPgMasMNPjAU6tXK2ofg==",
+    "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
+      "sha512": "oetvmtDZOE4Nnrtxd8Trapl9geBiu0rDCUXff46qGYjnUwzaU1mZ3OHnfR402tl32rx8gBWg3n5OBRaPJRbsGw==",
       "type": "package",
-      "path": "syncfusion.shared.wpf/21.1.37",
-      "hasTools": true,
+      "path": "sqlitepclraw.lib.e_sqlite3/2.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.txt",
-        "README.md",
-        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
-        "lib/net40/Design/Syncfusion.Shared.WPF.DesignTools.dll",
-        "lib/net40/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
-        "lib/net40/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
-        "lib/net40/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
-        "lib/net40/Syncfusion.Shared.WPF.dll",
-        "lib/net40/Syncfusion.Shared.WPF.xml",
-        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
-        "lib/net45/Design/Syncfusion.Shared.WPF.DesignTools.dll",
-        "lib/net45/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
-        "lib/net45/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
-        "lib/net45/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
-        "lib/net45/Syncfusion.Shared.WPF.dll",
-        "lib/net45/Syncfusion.Shared.WPF.xml",
-        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
-        "lib/net451/Design/Syncfusion.Shared.WPF.DesignTools.dll",
-        "lib/net451/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
-        "lib/net451/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
-        "lib/net451/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
-        "lib/net451/Syncfusion.Shared.WPF.dll",
-        "lib/net451/Syncfusion.Shared.WPF.xml",
-        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
-        "lib/net46/Design/Syncfusion.Shared.WPF.DesignTools.dll",
-        "lib/net46/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
-        "lib/net46/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
-        "lib/net46/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
-        "lib/net46/Syncfusion.Shared.WPF.dll",
-        "lib/net46/Syncfusion.Shared.WPF.xml",
-        "lib/net6.0-windows7.0/Design/Syncfusion.Shared.WPF.DesignTools.dll",
-        "lib/net6.0-windows7.0/Syncfusion.Shared.WPF.dll",
-        "lib/net6.0-windows7.0/Syncfusion.Shared.WPF.xml",
-        "syncfusion.shared.wpf.21.1.37.nupkg.sha512",
-        "syncfusion.shared.wpf.nuspec",
-        "syncfusion_logo.png",
-        "tools/VisualStudioToolsManifest.xml"
+        "build/net461/SQLitePCLRaw.lib.e_sqlite3.targets",
+        "lib/net461/_._",
+        "lib/netstandard2.0/_._",
+        "runtimes/alpine-x64/native/libe_sqlite3.so",
+        "runtimes/linux-arm/native/libe_sqlite3.so",
+        "runtimes/linux-arm64/native/libe_sqlite3.so",
+        "runtimes/linux-armel/native/libe_sqlite3.so",
+        "runtimes/linux-mips64/native/libe_sqlite3.so",
+        "runtimes/linux-musl-x64/native/libe_sqlite3.so",
+        "runtimes/linux-x64/native/libe_sqlite3.so",
+        "runtimes/linux-x86/native/libe_sqlite3.so",
+        "runtimes/osx-x64/native/libe_sqlite3.dylib",
+        "runtimes/win-arm/native/e_sqlite3.dll",
+        "runtimes/win-arm64/native/e_sqlite3.dll",
+        "runtimes/win-x64/native/e_sqlite3.dll",
+        "runtimes/win-x86/native/e_sqlite3.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/e_sqlite3.dll",
+        "runtimes/win10-arm64/nativeassets/uap10.0/e_sqlite3.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/e_sqlite3.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/e_sqlite3.dll",
+        "sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
+        "sqlitepclraw.lib.e_sqlite3.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.provider.e_sqlite3/2.0.4": {
+      "sha512": "YiqCw+PfiPIuX2aZnEqt1ya5ldGm4ParIqzaRXtztDu8mdzZxOXVYOrKZazXg6nbwYbCP1H5mOYGmBFQ2W0M5g==",
+      "type": "package",
+      "path": "sqlitepclraw.provider.e_sqlite3/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll",
+        "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll",
+        "sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
+        "sqlitepclraw.provider.e_sqlite3.nuspec"
       ]
     },
     "System.Buffers/4.5.1": {
@@ -1622,10 +1615,10 @@
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
       "Nominatim.API >= 2.0.0",
-      "Syncfusion.SfColorPalette.WPF >= 21.1.37",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2578",
-      "Xamarin.Forms.Maps >= 5.0.0.2578"
+      "Xamarin.Forms.Maps >= 5.0.0.2578",
+      "sqlite-net-pcl >= 1.8.116"
     ]
   },
   "packageFolders": {
@@ -1683,10 +1676,6 @@
             "target": "Package",
             "version": "[2.0.0, )"
           },
-          "Syncfusion.SfColorPalette.WPF": {
-            "target": "Package",
-            "version": "[21.1.37, )"
-          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
@@ -1698,6 +1687,10 @@
           "Xamarin.Forms.Maps": {
             "target": "Package",
             "version": "[5.0.0.2578, )"
+          },
+          "sqlite-net-pcl": {
+            "target": "Package",
+            "version": "[1.8.116, )"
           }
         },
         "imports": [
@@ -1714,37 +1707,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Syncfusion.SfColorPalette.WPF 21.1.37' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Syncfusion.SfColorPalette.WPF",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Syncfusion.SfRadialMenu.WPF 21.1.37' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Syncfusion.SfRadialMenu.WPF",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Syncfusion.Shared.WPF 21.1.37' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Syncfusion.Shared.WPF",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }

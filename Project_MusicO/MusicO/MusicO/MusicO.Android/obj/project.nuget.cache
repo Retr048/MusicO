@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "kiL8BVtmBNoWjuGR4Tl0CnFk6LikFBTj4827sZWitJ7DNyXvqLG0roQGyzCpLBCJfhyIb017HiGn/MXpseSQqA==",
-  "success": false,
+  "dgSpecHash": "p+fMCFmSfrOUphF4QYy14uvWlSLUp5b3xicuJYzsv5vTvQySiNtpI48Q4340f1LflUWQKceYJEJQfvneqG4NYg==",
+  "success": true,
   "projectFilePath": "C:\\Users\\mihai\\OneDrive\\Работен плот\\GitHub\\MusicO\\Project_MusicO\\MusicO\\MusicO\\MusicO.Android\\MusicO.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mihai\\.nuget\\packages\\geojson.net\\1.2.19\\geojson.net.1.2.19.nupkg.sha512",
@@ -14,10 +14,11 @@
     "C:\\Users\\mihai\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\mihai\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\mihai\\.nuget\\packages\\nominatim.api\\2.0.0\\nominatim.api.2.0.0.nupkg.sha512",
-    "C:\\Users\\mihai\\.nuget\\packages\\syncfusion.licensing\\21.1.37\\syncfusion.licensing.21.1.37.nupkg.sha512",
-    "C:\\Users\\mihai\\.nuget\\packages\\syncfusion.sfcolorpalette.wpf\\21.1.37\\syncfusion.sfcolorpalette.wpf.21.1.37.nupkg.sha512",
-    "C:\\Users\\mihai\\.nuget\\packages\\syncfusion.sfradialmenu.wpf\\21.1.37\\syncfusion.sfradialmenu.wpf.21.1.37.nupkg.sha512",
-    "C:\\Users\\mihai\\.nuget\\packages\\syncfusion.shared.wpf\\21.1.37\\syncfusion.shared.wpf.21.1.37.nupkg.sha512",
+    "C:\\Users\\mihai\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
+    "C:\\Users\\mihai\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+    "C:\\Users\\mihai\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "C:\\Users\\mihai\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.android\\2.0.4\\sqlitepclraw.lib.e_sqlite3.android.2.0.4.nupkg.sha512",
+    "C:\\Users\\mihai\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.4\\sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\mihai\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\mihai\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\mihai\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
@@ -95,33 +96,6 @@
       "warningLevel": 1,
       "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2578 to 5.0.0.2196. Reference the package directly from the project to select a different version. \r\n MusicO.Android -> MusicO -> Xamarin.Forms (>= 5.0.0.2578) \r\n MusicO.Android -> Xamarin.Forms (>= 5.0.0.2196)",
       "libraryId": "Xamarin.Forms",
-      "targetGraphs": [
-        "MonoAndroid,Version=v13.0"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package Syncfusion.SfColorPalette.WPF 21.1.37 is not compatible with monoandroid13.0 (MonoAndroid,Version=v13.0). Package Syncfusion.SfColorPalette.WPF 21.1.37 supports:\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - net45 (.NETFramework,Version=v4.5)\r\n  - net451 (.NETFramework,Version=v4.5.1)\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
-      "libraryId": "Syncfusion.SfColorPalette.WPF",
-      "targetGraphs": [
-        "MonoAndroid,Version=v13.0"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package Syncfusion.Shared.WPF 21.1.37 is not compatible with monoandroid13.0 (MonoAndroid,Version=v13.0). Package Syncfusion.Shared.WPF 21.1.37 supports:\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - net45 (.NETFramework,Version=v4.5)\r\n  - net451 (.NETFramework,Version=v4.5.1)\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
-      "libraryId": "Syncfusion.Shared.WPF",
-      "targetGraphs": [
-        "MonoAndroid,Version=v13.0"
-      ]
-    },
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package Syncfusion.SfRadialMenu.WPF 21.1.37 is not compatible with monoandroid13.0 (MonoAndroid,Version=v13.0). Package Syncfusion.SfRadialMenu.WPF 21.1.37 supports:\r\n  - net40 (.NETFramework,Version=v4.0)\r\n  - net45 (.NETFramework,Version=v4.5)\r\n  - net451 (.NETFramework,Version=v4.5.1)\r\n  - net46 (.NETFramework,Version=v4.6)\r\n  - net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
-      "libraryId": "Syncfusion.SfRadialMenu.WPF",
       "targetGraphs": [
         "MonoAndroid,Version=v13.0"
       ]

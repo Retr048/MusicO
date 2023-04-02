@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MusicO.Views.AboutPage"
              xmlns:vm="clr-namespace:MusicO.ViewModels"
-             Shell.BackgroundColor="#090333"
+             BackgroundColor="#090333"
              >
     
     <ContentPage.BindingContext>
@@ -36,10 +36,9 @@
         HeightRequest="70"
         WidthRequest="10"
         BorderWidth="0"
-        BorderColor="#FFFFFF">
-                </Button>
-
+        BorderColor="#FFFFFF"></Button>
             </StackLayout>
+            <Button Margin="-50, -420, 305, 50" Text="Logout" TextColor="Red" Clicked="Handle_Clicked"/>
         </StackLayout>
     </Grid>
 

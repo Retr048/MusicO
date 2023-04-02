@@ -38,3 +38,5 @@ C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\Mus
 C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\refint\MusicO.dll
 C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\MusicO.pdb
 C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\ref\MusicO.dll
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\Views\RegistrationPage.xaml.g.cs
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO\obj\Debug\netstandard2.0\Views\PageLogIn.xaml.g.cs

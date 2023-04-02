@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MusicO.Views.PageLogIn"
+             BackgroundColor="#FF6464"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid VerticalOptions="CenterAndExpand" Margin="20" RowSpacing="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Entry Placeholder="Username" x:Name="EntryUser" Grid.Row="0"/>
+                <Entry Placeholder="Password" x:Name="EntryPassword" IsPassword="true" Grid.Row="1"/>
+                <Button Text="Login" CornerRadius="12" Grid.Row="2" BackgroundColor="#4B125C" Clicked="Handle_Clicked_2" TextColor="DeepPink"/>
+                <Button Text="Sign Up" CornerRadius="12" Grid.Row="3" BackgroundColor="#FFF7C2" TextColor="DeepPink" Clicked="Handle_Clicked"/>
+
+            </Grid>
+        </StackLayout>
+
+
+
+    </ContentPage.Content>
+</ContentPage>

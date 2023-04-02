@@ -11,10 +11,10 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Nominatim.API": "2.0.0",
-          "Syncfusion.SfColorPalette.WPF": "21.1.37",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2578",
-          "Xamarin.Forms.Maps": "5.0.0.2578"
+          "Xamarin.Forms.Maps": "5.0.0.2578",
+          "sqlite-net-pcl": "1.8.116"
         },
         "runtime": {
           "MusicO.dll": {}
@@ -163,46 +163,50 @@
           }
         }
       },
-      "Syncfusion.Licensing/21.1.37": {
+      "sqlite-net-pcl/1.8.116": {
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "2.0.4"
+        },
         "runtime": {
-          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
-            "assemblyVersion": "21.1.37.0",
-            "fileVersion": "21.1.37.0"
+          "lib/netstandard2.0/SQLite-net.dll": {
+            "assemblyVersion": "1.8.116.0",
+            "fileVersion": "1.8.116.0"
           }
         }
       },
-      "Syncfusion.SfColorPalette.WPF/21.1.37": {
+      "SQLitePCLRaw.bundle_green/2.0.4": {
         "dependencies": {
-          "Syncfusion.Licensing": "21.1.37",
-          "Syncfusion.SfRadialMenu.WPF": "21.1.37",
-          "Syncfusion.Shared.WPF": "21.1.37"
+          "SQLitePCLRaw.core": "2.0.4",
+          "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.0.4"
         },
         "runtime": {
-          "lib/net46/Syncfusion.SfColorPalette.WPF.dll": {
-            "assemblyVersion": "21.1460.37.0",
-            "fileVersion": "21.1460.37.0"
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
           }
         }
       },
-      "Syncfusion.SfRadialMenu.WPF/21.1.37": {
+      "SQLitePCLRaw.core/2.0.4": {
         "dependencies": {
-          "Syncfusion.Licensing": "21.1.37"
+          "System.Memory": "4.5.4"
         },
         "runtime": {
-          "lib/net46/Syncfusion.SfRadialMenu.WPF.dll": {
-            "assemblyVersion": "21.1460.37.0",
-            "fileVersion": "21.1460.37.0"
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
           }
         }
       },
-      "Syncfusion.Shared.WPF/21.1.37": {
+      "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {},
+      "SQLitePCLRaw.provider.e_sqlite3/2.0.4": {
         "dependencies": {
-          "Syncfusion.Licensing": "21.1.37"
+          "SQLitePCLRaw.core": "2.0.4"
         },
         "runtime": {
-          "lib/net46/Syncfusion.Shared.WPF.dll": {
-            "assemblyVersion": "21.1460.37.0",
-            "fileVersion": "21.1460.37.0"
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {
+            "assemblyVersion": "2.0.4.976",
+            "fileVersion": "2.0.4.976"
           }
         }
       },
@@ -424,33 +428,40 @@
       "path": "nominatim.api/2.0.0",
       "hashPath": "nominatim.api.2.0.0.nupkg.sha512"
     },
-    "Syncfusion.Licensing/21.1.37": {
+    "sqlite-net-pcl/1.8.116": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bgg43Ocj2l8dv4Nd4nX1LNqCj5ZAezeOTI5ZBbszNGIajwlg5IXShoa+HkvnoWjbUBX+vNwWgWFdsBYdMOhtTQ==",
-      "path": "syncfusion.licensing/21.1.37",
-      "hashPath": "syncfusion.licensing.21.1.37.nupkg.sha512"
+      "sha512": "sha512-W0NuwAOVVAR9LP4eZwNBIrim1p3EN7t8iNfSHXEhtzKAd4YyItekoQ8NyWYs4faVSrN2KZr/P5u4hycCjKKexg==",
+      "path": "sqlite-net-pcl/1.8.116",
+      "hashPath": "sqlite-net-pcl.1.8.116.nupkg.sha512"
     },
-    "Syncfusion.SfColorPalette.WPF/21.1.37": {
+    "SQLitePCLRaw.bundle_green/2.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dlWurRgdgQF43Gj1ew99vkhdqZDlhNGTQGEoYP0upmSo1Gl3E/yqEUS3f90MKY77aO9N/SObJqL+UvLBt/fKwA==",
-      "path": "syncfusion.sfcolorpalette.wpf/21.1.37",
-      "hashPath": "syncfusion.sfcolorpalette.wpf.21.1.37.nupkg.sha512"
+      "sha512": "sha512-ubFgOHDmtTcq2LU7Ss10yHnFVMm2rFVr65Ggi+Mh514KjGx4pal98P2zSvZtWf3wbtJw6G1InBgeozBtnpEfKQ==",
+      "path": "sqlitepclraw.bundle_green/2.0.4",
+      "hashPath": "sqlitepclraw.bundle_green.2.0.4.nupkg.sha512"
     },
-    "Syncfusion.SfRadialMenu.WPF/21.1.37": {
+    "SQLitePCLRaw.core/2.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TH4bJanw7/3JQ7dXlBt1mphtGUcKoHrX2qg+qRMNWjrZBwoRoR6Ov2ZjdNUl5rOwA6FAK5QNJ0Z8EJk8c2pohw==",
-      "path": "syncfusion.sfradialmenu.wpf/21.1.37",
-      "hashPath": "syncfusion.sfradialmenu.wpf.21.1.37.nupkg.sha512"
+      "sha512": "sha512-4XlDZpDAsboMD6qZQcz9AaKblKDUTVHF+8f3lvbP7QjoqSRr2Xc0Lm34IK2pjRIYnyFLhI3yOJ5YWfOiCid2yg==",
+      "path": "sqlitepclraw.core/2.0.4",
+      "hashPath": "sqlitepclraw.core.2.0.4.nupkg.sha512"
     },
-    "Syncfusion.Shared.WPF/21.1.37": {
+    "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MxY6DNB+TiYovg7ZDY4sP8Zwa0qC+I+kDlhesj6ZIfot4k0n7k7MeD8d477+Q9hdm3zPgMasMNPjAU6tXK2ofg==",
-      "path": "syncfusion.shared.wpf/21.1.37",
-      "hashPath": "syncfusion.shared.wpf.21.1.37.nupkg.sha512"
+      "sha512": "sha512-oetvmtDZOE4Nnrtxd8Trapl9geBiu0rDCUXff46qGYjnUwzaU1mZ3OHnfR402tl32rx8gBWg3n5OBRaPJRbsGw==",
+      "path": "sqlitepclraw.lib.e_sqlite3/2.0.4",
+      "hashPath": "sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512"
+    },
+    "SQLitePCLRaw.provider.e_sqlite3/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YiqCw+PfiPIuX2aZnEqt1ya5ldGm4ParIqzaRXtztDu8mdzZxOXVYOrKZazXg6nbwYbCP1H5mOYGmBFQ2W0M5g==",
+      "path": "sqlitepclraw.provider.e_sqlite3/2.0.4",
+      "hashPath": "sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",

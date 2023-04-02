@@ -14,7 +14,8 @@ namespace MusicO
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            //MainPage = new AppShell();
+            MainPage = new NavigationPage(new PageLogIn());
         }
 
         protected override void OnStart()

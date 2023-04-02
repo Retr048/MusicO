@@ -2,29 +2,25 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MusicO.Views.ItemsPage"
-             Title="{Binding Title}"
+             Title="Settings"
              xmlns:local="clr-namespace:MusicO.ViewModels"  
              xmlns:model="clr-namespace:MusicO.Models"  
              x:Name="BrowseItemsPage">
 
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Add" Command="{Binding AddItemCommand}" />
-    </ContentPage.ToolbarItems>
     <!--
       x:DataType enables compiled bindings for better performance and compile time validation of binding expressions.
       https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/data-binding/compiled-bindings
     -->
     <RefreshView x:DataType="local:ItemsViewModel" Command="{Binding LoadItemsCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
-        <StackLayout>
-            <Entry x:Name="backgroundTextBox" TextChanged="OnTextChanged" PlaceholderColor="#090333" Placeholder="Background Color:"/>
-            <Entry PlaceholderColor="#3a469f" Placeholder="Foreground Color:"/>
+        <StackLayout BackgroundColor="#5F236B">
+            <Label Padding="20,40,30,10" Text="Color Themes" FontSize="30" TextColor="#D27685"></Label>
             <StackLayout Orientation="Horizontal">
-                <RadioButton x:Name="darkTheme" />
-                <Label Text="Dark theme" VerticalTextAlignment="Center" />
+                <RadioButton x:Name="darkTheme" CheckedChanged="DarkTheme_Enable"/>
+                <Label TextColor="#D27685" Text="Dark theme" VerticalTextAlignment="Center" FontSize="18"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
-                <RadioButton x:Name="lightTheme" />
-                <Label Text="Light theme" VerticalTextAlignment="Center" />
+                <RadioButton x:Name="lightTheme" CheckedChanged="LightMode_Enable"/>
+                <Label FontSize="18" TextColor="#D27685" Text="Light theme" VerticalTextAlignment="Center" />
             </StackLayout>
         </StackLayout>
     </RefreshView>
