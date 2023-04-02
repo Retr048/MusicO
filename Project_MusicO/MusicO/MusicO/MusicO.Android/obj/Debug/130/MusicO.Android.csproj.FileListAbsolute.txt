@@ -1437,3 +1437,5 @@ C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\Mus
 C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO.Android\obj\Debug\130\android\src\mono\com\google\android\exoplayer2\video\VideoFrameMetadataListenerImplementor.java
 C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO.Android\obj\Debug\130\android\src\mono\com\google\android\exoplayer2\video\VideoListenerImplementor.java
 C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO.Android\obj\Debug\130\android\src\mono\com\google\android\exoplayer2\video\VideoRendererEventListenerImplementor.java
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO.Android\obj\Debug\130\res\drawable\logov2.jpg
+C:\Users\mihai\OneDrive\Работен плот\GitHub\MusicO\Project_MusicO\MusicO\MusicO\MusicO.Android\obj\Debug\130\res\drawable\favicon.ico
