@@ -1,4 +1,8 @@
-﻿using MusicO.Services;
+﻿using Android.Content.Res;
+using Android.Media;
+using Android.OS;
+using MediaManager;
+using MusicO.Services;
 using MusicO.Views;
 using System;
 using Xamarin.Forms;
@@ -8,6 +12,7 @@ namespace MusicO
 {
     public partial class App : Application
     {
+        MediaPlayer player;
 
         public App()
         {
@@ -20,6 +25,7 @@ namespace MusicO
 
         protected override void OnStart()
         {
+            
         }
 
         protected override void OnSleep()

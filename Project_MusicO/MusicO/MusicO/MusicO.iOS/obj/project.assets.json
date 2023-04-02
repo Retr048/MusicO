@@ -165,6 +165,19 @@
           "lib/netstandard2.0/Nominatim.API.dll": {}
         }
       },
+      "Plugin.MediaManager/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/MediaManager.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/MediaManager.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -490,6 +503,7 @@
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Nominatim.API": "2.0.0",
+          "Plugin.MediaManager": "1.0.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms.Maps": "5.0.0.2578",
           "sqlite-net-pcl": "1.8.116"
@@ -666,6 +680,19 @@
           "lib/netstandard2.0/Nominatim.API.dll": {}
         }
       },
+      "Plugin.MediaManager/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/MediaManager.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/MediaManager.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -991,6 +1018,7 @@
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Nominatim.API": "2.0.0",
+          "Plugin.MediaManager": "1.0.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms.Maps": "5.0.0.2578",
           "sqlite-net-pcl": "1.8.116"
@@ -1167,6 +1195,19 @@
           "lib/netstandard2.0/Nominatim.API.dll": {}
         }
       },
+      "Plugin.MediaManager/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/MediaManager.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/MediaManager.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -1492,6 +1533,7 @@
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Nominatim.API": "2.0.0",
+          "Plugin.MediaManager": "1.0.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms.Maps": "5.0.0.2578",
           "sqlite-net-pcl": "1.8.116"
@@ -1668,6 +1710,19 @@
           "lib/netstandard2.0/Nominatim.API.dll": {}
         }
       },
+      "Plugin.MediaManager/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/MediaManager.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/xamarinios10/MediaManager.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -1993,6 +2048,7 @@
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Nominatim.API": "2.0.0",
+          "Plugin.MediaManager": "1.0.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms.Maps": "5.0.0.2578",
           "sqlite-net-pcl": "1.8.116"
@@ -2251,6 +2307,46 @@
         "lib/netstandard2.0/Nominatim.API.dll",
         "nominatim.api.2.0.0.nupkg.sha512",
         "nominatim.api.nuspec"
+      ]
+    },
+    "Plugin.MediaManager/1.0.0": {
+      "sha512": "Rmja0QIoD0rAxVMyrmbeQT2CcU1xlzwP0t6FsDUKDn2ELud7totzdwRzNdJikmW/6Fjs+OPVFNzBEtH2og5Ilw==",
+      "type": "package",
+      "path": "plugin.mediamanager/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/monoandroid10.0/MediaManager.dll",
+        "lib/monoandroid10.0/MediaManager.pdb",
+        "lib/monoandroid10.0/MediaManager.xml",
+        "lib/net472/MediaManager.dll",
+        "lib/net472/MediaManager.pdb",
+        "lib/net472/MediaManager.xml",
+        "lib/netstandard2.0/MediaManager.dll",
+        "lib/netstandard2.0/MediaManager.pdb",
+        "lib/netstandard2.0/MediaManager.xml",
+        "lib/tizen40/MediaManager.dll",
+        "lib/tizen40/MediaManager.pdb",
+        "lib/tizen40/MediaManager.xml",
+        "lib/uap10.0.17763/MediaManager.dll",
+        "lib/uap10.0.17763/MediaManager.pdb",
+        "lib/uap10.0.17763/MediaManager.pri",
+        "lib/uap10.0.17763/MediaManager.xml",
+        "lib/uap10.0.17763/MediaManager/MediaManager.xr.xml",
+        "lib/xamarinios10/MediaManager.dll",
+        "lib/xamarinios10/MediaManager.pdb",
+        "lib/xamarinios10/MediaManager.xml",
+        "lib/xamarinmac20/MediaManager.dll",
+        "lib/xamarinmac20/MediaManager.pdb",
+        "lib/xamarinmac20/MediaManager.xml",
+        "lib/xamarintvos10/MediaManager.dll",
+        "lib/xamarintvos10/MediaManager.pdb",
+        "lib/xamarintvos10/MediaManager.xml",
+        "plugin.mediamanager.1.0.0.nupkg.sha512",
+        "plugin.mediamanager.nuspec",
+        "readme.txt"
       ]
     },
     "sqlite-net-pcl/1.8.116": {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tEUaMRrPd4rhN2J6fBwv7iE4X+9608E2i/hUqTWtuIs5/kZptiMbbrrEfrtl7xxxLUR41I9aoKAifgbh4pJp3w==",
+  "dgSpecHash": "uu/j8WfT4oupBlgTzPMBlc0HNbdXOi/cgxPnqOUxD9mnoGhjFSChQjhNjfF7FxkPhtZvRyzTanajOtimts+k7A==",
   "success": true,
   "projectFilePath": "C:\\Users\\mihai\\OneDrive\\Работен плот\\GitHub\\MusicO\\Project_MusicO\\MusicO\\MusicO\\MusicO\\MusicO.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\mihai\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\mihai\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\mihai\\.nuget\\packages\\nominatim.api\\2.0.0\\nominatim.api.2.0.0.nupkg.sha512",
+    "C:\\Users\\mihai\\.nuget\\packages\\plugin.mediamanager\\1.0.0\\plugin.mediamanager.1.0.0.nupkg.sha512",
     "C:\\Users\\mihai\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\mihai\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "C:\\Users\\mihai\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",

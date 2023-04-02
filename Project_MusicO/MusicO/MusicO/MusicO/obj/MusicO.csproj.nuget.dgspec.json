@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[2.0.0, )"
             },
+            "Plugin.MediaManager": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.7.0, )"

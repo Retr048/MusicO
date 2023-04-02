@@ -1,4 +1,13 @@
+ExoPlayer.Core.dll
+ExoPlayer.Dash.dll
+ExoPlayer.dll
+ExoPlayer.Ext.MediaSession.dll
+ExoPlayer.Hls.dll
+ExoPlayer.SmoothStreaming.dll
+ExoPlayer.UI.dll
 FormsViewGroup.dll
+MediaManager.dll
+MusicO.dll
 SQLitePCLRaw.lib.e_sqlite3.android.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll

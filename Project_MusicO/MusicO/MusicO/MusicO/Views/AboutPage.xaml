@@ -27,6 +27,7 @@
                 <ContentView  Padding="0,-60,0,0" VerticalOptions="FillAndExpand">
                     <Image Aspect="AspectFill" Source="logo3.jpg" VerticalOptions="CenterAndExpand"  HeightRequest="404"/>
                 </ContentView>
+                <Label x:Name ="adrLabel" TextColor="White" FontSize="11" HorizontalOptions="Center"/>
                 <Image x:Name="MapImage" Aspect="AspectFill" />
                 <StackLayout>
                     <Button x:Name = "buttonPlaylist" Clicked ="btnLocationClicked"  Text="Generate Playlist" Margin=" -30, 0, -30, 50"

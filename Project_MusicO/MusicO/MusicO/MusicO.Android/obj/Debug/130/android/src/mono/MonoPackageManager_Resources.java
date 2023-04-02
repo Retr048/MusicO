@@ -3,8 +3,16 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "MusicO.Android.dll" comes first in this list. */
 		"MusicO.Android.dll",
+		"ExoPlayer.Core.dll",
+		"ExoPlayer.Dash.dll",
+		"ExoPlayer.dll",
+		"ExoPlayer.Ext.MediaSession.dll",
+		"ExoPlayer.Hls.dll",
+		"ExoPlayer.SmoothStreaming.dll",
+		"ExoPlayer.UI.dll",
 		"FormsViewGroup.dll",
 		"GeoJSON.Net.dll",
+		"MediaManager.dll",
 		"Microsoft.Extensions.DependencyInjection.Abstractions.dll",
 		"Microsoft.Extensions.DependencyInjection.dll",
 		"Microsoft.Extensions.Http.dll",

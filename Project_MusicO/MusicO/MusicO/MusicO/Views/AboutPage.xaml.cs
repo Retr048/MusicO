@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.IO;
+using Android.Text;
 
 namespace MusicO.Views
 {
@@ -104,21 +105,64 @@ namespace MusicO.Views
 
         private async void btnLocationClicked(object ender, EventArgs e)
         {
+            string adrToText = "";
+
             try
             {
                 await GetLocation();
                 if (location != null)
                 {
                     address = await GetCompleteAddressString(location.Latitude, location.Longitude);
-                    buttonPlaylist.Text = address;
+
+                    foreach (char chr in address)
+                    {
+                        if (chr == ',') break;
+                        adrToText += chr;
+                    }
+                    adrLabel.Text = "You are in: " + adrToText + "\nCurrently playing: ";
                     await LoadMapAsync(location.Latitude, location.Longitude);
                 }
+                Random rnd = new Random();
+
+
+                if (adrToText.Contains("Американски университет в България"))
+                {
+                    int rand = rnd.Next(5);
+                    Browser.OpenAsync(playlist1[rand]);
+                    adrLabel.Text += subplay1[rand];
+                }
+                else
+                {
+                    int rand = rnd.Next(5);
+                    Browser.OpenAsync(playlist2[rand]);
+                    adrLabel.Text += subplay2[rand];
+                }
             }
-            catch 
+            catch (Exception ex)
             {
                 // Todo exception handling
             }
         }
+
+        string[] playlist1 = { "https://www.youtube.com/watch?v=QYh6mYIJG2Y",
+            "https://www.youtube.com/watch?v=gl1aHhXnN1k", "https://www.youtube.com/watch?v=hT_nvWreIhg&list=PLl9ZdhTSovhwFfkrRD3sL52sN67j8FBwu",
+            "https://www.youtube.com/watch?v=0KSOMA3QBU0&list=PLl9ZdhTSovhwFfkrRD3sL52sN67j8FBwu&index=2", "https://www.youtube.com/watch?v=rp2e4-Sh0Hc&embeds_euri=https%3A%2F%2Fwww.chosic.com%2F&source_ve_path=MjM4NTE&feature=emb_title"};
+        string[] playlist2 = { " https://www.youtube.com/watch?v=x9buV_HJePE&embeds_euri=https%3A%2F%2Fwww.chosic.com%2F&source_ve_path=MjM4NTE&feature=emb_title",
+            "https://www.youtube.com/watch?v=C2HHRRxKGiY&embeds_euri=https%3A%2F%2Fwww.chosic.com%2F&source_ve_path=MjM4NTE&feature=emb_title"
+                , "https://www.youtube.com/watch?v=b1kbLwvqugk",
+            "https://www.youtube.com/watch?v=QXQQAsIhHMw&embeds_euri=https%3A%2F%2Fwww.chosic.com%2F&source_ve_path=MjM4NTE&feature=emb_title",
+            "https://www.youtube.com/watch?v=ANS9sSJA9Yc&embeds_euri=https%3A%2F%2Fwww.chosic.com%2F&source_ve_path=MjM4NTE&feature=emb_title" };
+
+
+        string[] playlist3 = { "https://www.youtube.com/watch?v=RgKAFK5djSk&embeds_euri=https%3A%2F%2Fwww.chosic.com%2F&source_ve_path=MjM4NTE&feature=emb_title",
+            "https://www.youtube.com/watch?v=j5-yKhDd64s&embeds_euri=https%3A%2F%2Fwww.chosic.com%2F&source_ve_path=MjM4NTE&feature=emb_title",
+            "https://www.youtube.com/watch?v=GzU8KqOY8YA&embeds_euri=https%3A%2F%2Fwww.chosic.com%2F&source_ve_path=MjM4NTE&feature=emb_title",
+            "https://www.youtube.com/watch?v=uelHwf8o7_U&embeds_euri=https%3A%2F%2Fwww.chosic.com%2F&source_ve_path=MjM4NTE&feature=emb_title",
+            "https://www.youtube.com/watch?v=2KBFD0aoZy8&embeds_euri=https%3A%2F%2Fwww.chosic.com%2F&source_ve_path=MjM4NTE&feature=emb_title" };
+
+        string[] subplay1 = { "Ariana Grande - 7 rings", "Ariana Grande - thank u, next ", "OneRepublic - Counting Stars", "Katy Perry - Dark Horse", "Juice WRLD ft. Marshmello, Polo G & Kid Laroi - Hate The Other Side" };
+        string[] subplay2 = { "Melanie Martinez - Void", "FIFTY FIFTY - Cupid", "Taylor Swift - Anti-Hero", "ROSALÍA, Rauw Alejandro - BESO", "Maroon 5 - Don't Wanna Know" };
+        string[] subplay3 = { "Wiz Khalifa - See You Again ft. Charlie Puth", "Eminem - Not Afraid", "Sean Paul - No Lie", "Eminem - Love The Way You Lie ft. Rihanna", "Ava Max - Sweet but Psycho" };
 
         async void Handle_Clicked(object sender, System.EventArgs e)
         {
